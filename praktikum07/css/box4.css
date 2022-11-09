@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.container .kotak:nth-child(1){
+    background-color: yellow;
+    width: 20%;
+}
+
+.container .kotak:nth-child(2){
+    background-color: orange;
+    width: 79%;
+}
+
+.container .isi:nth-child(1){
+    background-color: greenyellow;
+    width: 20%;
+}
+
+.container .isi:nth-child(2){
+    background-color: gray;
+    width: 59%;
+}
+
+.container .isi:nth-child(3){
+    background-color: aqua;
+    width: 20%;
+}
+
+.kotak{
+    height: 100px;
+}
+
+.isi{
+    height: 400px;
+}
+
+.kotak-bawah{
+    width: 100%;
+    background-color: blue;
+    margin-top: 20px;
+    height: 50px;
+}
